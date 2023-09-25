@@ -42,7 +42,16 @@ const Homework1 = class Homework1 {
  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math
  */
 
-const Circle = class Circle { }
+const Circle = class Circle { 
+    constructor(radius, color) {
+        this.radius = radius;
+        this.color = color;
+    }
+
+    calcArea() {
+        return this.radius * this.radius * Math.PI;
+    }
+}
 
 
 /**
