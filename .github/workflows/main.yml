@@ -18,9 +18,6 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
-      - name: Fixing ESLint Errors
-        run: npm run lint -- --fix
-
       - name: Running Prettier to Fix
         run: npx prettier --write .
 

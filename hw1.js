@@ -73,7 +73,7 @@ const Student = class Student {
     this.lastName = lastName;
     this.gpa = gpa;
     this.degreeType = degreeType;
-    this.grade - undefined;
+    this.grade = undefined;
     this.graduated = false;
   }
 };
