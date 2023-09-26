@@ -40,4 +40,4 @@ jobs:
     - name: Semantic Release
       run: npx semantic-release
       env:
-        GITHUB_TOKEN: ${{ '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' }}
+        GITHUB_TOKEN: ${{ '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' }}
