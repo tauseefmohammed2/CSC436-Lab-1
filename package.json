@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "repository": "https://github.com/tauseefmohammed2/CSC436-Lab-1",
   "scripts": {
     "test": "jest"
   },
